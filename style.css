@@ -1,0 +1,39 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputBox {
+    width: 400px;
+}
+
+.shoppingList {
+    background-color: #efecec;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.productContainer {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.products {
+    display: inline;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 10px;
+}
+
+.fa-xmark {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.purchased {
+    text-decoration: line-through;
+}
